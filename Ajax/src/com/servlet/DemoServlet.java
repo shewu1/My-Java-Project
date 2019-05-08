@@ -14,6 +14,11 @@ import com.pojo.Users;
 @WebServlet("/demo")
 public class DemoServlet extends HttpServlet{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4177157779796719611L;
+
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
